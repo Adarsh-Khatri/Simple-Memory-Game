@@ -1,0 +1,29 @@
+.memory-game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cell {
+    background-color: #009ffd;
+    opacity: 1;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cell.open {
+    background-color: white;
+}
+
+.cell img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
